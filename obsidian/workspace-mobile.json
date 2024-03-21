@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "891f4732a35270fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7eed22d51027898",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12a1f35e64ae24f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "b2ff8a1aaf04aa45"
+          },
+          {
+            "id": "a55e59c4279f3d9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e5181b78779da36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "396af98b7b7ee51d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "546d637c8f654144",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "todo.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 2.1371874100003048,
+                  "close": true
+                }
+              }
+            },
+            "group": "b2ff8a1aaf04aa45"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e14531ca7db0f3d1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f58f8db65c634064",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "c37cfa93ff4f80fc",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2bd78d360ca4d915",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "57c7e74669847a73",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "3d378e66519277a4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7073c8fd54ba2685",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "todo.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "487d88b87417a39b",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "todo.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "cb784fa1041b3c04",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "todo.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "9e5181b78779da36",
+  "lastOpenFiles": [
+    "home_network.md",
+    "todo.md",
+    "bitcoin.md",
+    "tv_bedroom.md",
+    "nas_setup.md",
+    "etrennes_2023.md",
+    "assistants.md",
+    "val_cenis.md",
+    "resolutions_2024.md",
+    "book_list.md",
+    "batawaf.md",
+    "trips.md",
+    "self_host.md",
+    "book list.md",
+    "Etrennes.md",
+    "gifts_christmas_2023.md",
+    "robot_dad.md",
+    "automation_content.md",
+    "Excalidraw/Drawing 2023-11-13 20.04.55.excalidraw.md",
+    "wine.md",
+    "project_ideas.md",
+    "we_kids.md",
+    "laptop_setup.md",
+    "article_mfai.md",
+    "steam_deck.md",
+    "notes.code-workspace",
+    "image/image.png",
+    "image/home_network.png",
+    "image",
+    "resolutions_2023.md",
+    "Excalidraw"
+  ]
+}

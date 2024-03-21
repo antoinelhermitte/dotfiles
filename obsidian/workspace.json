@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "0bd5efdb7ace4ae9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c108fc1bfbc6f0ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d24be380c2e5a032",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resolutions_2024.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a12482c4d64aa549",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "home_network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d47bb8fd5e63990",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fdc3303a71d5459f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "laptop_setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82c86c1e6fa0a595",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "laptop_setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf0edc4415c2bc76",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0d1f30cce506917",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9eac330874812f50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2e9a16ac38f1f22f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b0904083de5cadf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 206.5
+  },
+  "right": {
+    "id": "6410ed7955e37bf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "9131f9495dfd0a1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b87dd02775d4d73f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "laptop_setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28da0c391bd6411c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "laptop_setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "881e41bf3f60d857",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c689a50b02f2c89b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "laptop_setup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "fdc3303a71d5459f",
+  "lastOpenFiles": [
+    "todo.md",
+    "qun.md",
+    "Setup system.md",
+    "self_host.md",
+    "resolutions_2023.md",
+    "kids_education.md",
+    "max_msp_synth.md",
+    "nas_setup.md",
+    "laptop_setup.md",
+    "resolutions_2024.md",
+    "home_network.md",
+    "etrennes_2023.md",
+    "robot_dad.md",
+    "bitcoin.md",
+    "project_ideas.md",
+    "tv_bedroom.md",
+    "assistants.md",
+    "batawaf.md",
+    "book_list.md",
+    "conflict-files-obsidian-git.md",
+    "steam_deck.md",
+    "val_cenis.md",
+    "trips.md",
+    "gifts_christmas_2023.md",
+    "automation_content.md",
+    "article_mfai.md",
+    "Untitled.canvas",
+    "Excalidraw"
+  ]
+}

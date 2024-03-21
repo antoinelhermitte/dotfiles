@@ -1,0 +1,43 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+\n$character"""
+
+# Disable the blank line at the start of the prompt
+scan_timeout = 15
+add_newline = false
+
+[username]
+style_user = "dimmed green"
+style_root = "red"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+style = "dimmed blue"
+format = "@[$hostname]($style)"
+trim_at = "."
+
+[directory]
+# style = "default"
+format = ":[$path](default) "
+disabled = false
+truncation_length = 3
+truncate_to_repo = true
+
+
+[character]
+success_symbol = "\\$(default)"
+error_symbol = "\\$(red)"
+
