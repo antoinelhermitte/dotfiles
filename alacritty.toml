@@ -1,1 +1,19 @@
-/Users/antoinelhermitte/.alacritty.toml
+import = [
+  #"~/.config/alacritty/themes/themes/github_dark.toml",
+  "~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"
+  ]
+
+[shell]
+program = "/bin/bash"
+args = ["-l"]
+
+[window]
+decorations = "buttonless"
+padding = { x = 5, y = 3 }
+startup_mode = "maximized"
+
+[font]
+size = 15 
+
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font Mono"
