@@ -11,7 +11,7 @@ mkdir -p "$XDG_CONFIG_HOME"/alacritty
 mkdir -p "$XDG_CONFIG_HOME"/alacritty/themes
 mkdir -p "$XDG_CONFIG_HOME"/karabiner
 
-mkdir tmp
+mkdir -p tmp
 
 # Curl alacritty cappuccin-macchiato theme
 curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
@@ -51,4 +51,4 @@ ln -sf "$PWD/karabiner.json" "$XDG_CONFIG_HOME"/karabiner/karabiner.json
 # Install firefox addons (bitwarden, ublock, vimium, pocket)
 
 # Clean installation packages
-rm -rf tmp
+#rm -rf tmp
