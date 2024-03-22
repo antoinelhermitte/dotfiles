@@ -11,7 +11,7 @@ mkdir -p "$XDG_CONFIG_HOME"/alacritty
 mkdir -p "$XDG_CONFIG_HOME"/alacritty/themes/themes
 
 # Curl alacritty cappuccin-macchiato theme
-curl -LO --output-dir ~/.config/alacritty/themes/themes https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
+curl -LO --output-dir "$XDG_CONFIG_HOME"/alacritty/themes/themes https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
 
 # Install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -44,6 +44,7 @@ ln -sf "$PWD/bash_profile" "$HOME"/.bash_profile
 ln -sf "$PWD/bashrc" "$HOME"/.bashrc
 ln -sf "$PWD/tmux.conf" "$HOME"/.tmux.conf
 ln -sf "$PWD/custom-capslock.json" "$XDG_CONFIG_HOME"/karabiner/complex_modifications/custom-capslock.json
+ln -sf "$PWD/karabiner.json" "$XDG_CONFIG_HOME"/karabiner/karabiner.json
 ln -sf "$PWD/starship.toml" "$XDG_CONFIG_HOME"/starship.toml
 
 # Install firefox addons (bitwarden, ublock, vimium, pocket)
