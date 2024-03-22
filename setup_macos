@@ -11,8 +11,6 @@ mkdir -p "$XDG_CONFIG_HOME"/alacritty
 mkdir -p "$XDG_CONFIG_HOME"/alacritty/themes/themes
 mkdir -p "$XDG_CONFIG_HOME"/karabiner
 
-mkdir -p tmp
-
 # Curl alacritty cappuccin-macchiato theme
 curl -LO --output-dir ~/.config/alacritty/themes/themes https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
 
@@ -24,19 +22,17 @@ curl -LO --output-dir ~/.config/alacritty/themes/themes https://github.com/catpp
 
 # Install nerd font jetbrains
 /opt/homebrew/bin/brew tap homebrew/cask-fonts
-/opt/homebrew/bin/brew rew install --cask jetbrains-mono-nerd-font 
+/opt/homebrew/bin/brew install --cask jetbrains-mono-nerd-font 
 
 # Install nvim and AstroNvim
-curl -L https://github.com/neovim/neovim/releases/download/stable/nvim-macos.tar.gz -o tmp/nvim-macos.tar.gz
-tar xzvf tmp/nvim-macos.tar.gz
-/bin/bash tmp/nvim-macos/bin/nvim
+/opt/homebrew/bin/brew install neovim
 git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 mkdir -p "$XDG_CONFIG_HOME"/nvim/lua/user
 cp init.lua "$XDG_CONFIG_HOME"/nvim/lua/user/init.lua
 
 # Install other Mac Packages
 /opt/homebrew/bin/brew install --cask obsidian vlc firefox amethyst hiddenbar karabiner-elements bitwarden signal
-/opt/homebrew/bin/brew install tmux starship ripgrep lazygit bottom wireguard-go ffmpeg gh
+/opt/homebrew/bin/brew install tmux starship ripgrep lazygit bottom wireguard-go ffmpeg gh 
 
 # Change default shell to bash
 chsh -s /bin/bash
