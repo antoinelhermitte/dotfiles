@@ -22,7 +22,7 @@ curl -LO --output-dir ~/.config/alacritty/themes/themes https://github.com/catpp
 
 # Install nerd font jetbrains
 /opt/homebrew/bin/brew tap homebrew/cask-fonts
-/opt/homebrew/bin/brew install --cask jetbrains-mono-nerd-font 
+/opt/homebrew/bin/brew install --cask font-jetbrains-mono-nerd-font 
 
 # Install nvim and AstroNvim
 /opt/homebrew/bin/brew install neovim
@@ -32,7 +32,7 @@ cp init.lua "$XDG_CONFIG_HOME"/nvim/lua/user/init.lua
 
 # Install other Mac Packages
 /opt/homebrew/bin/brew install --cask obsidian vlc firefox amethyst hiddenbar karabiner-elements bitwarden signal
-/opt/homebrew/bin/brew install tmux starship ripgrep lazygit bottom wireguard-go ffmpeg gh 
+/opt/homebrew/bin/brew install tmux starship ripgrep lazygit bottom wireguard-go ffmpeg gh starship 
 
 # Change default shell to bash
 chsh -s /bin/bash
@@ -43,6 +43,7 @@ ln -sf "$PWD/bash_profile" "$HOME"/.bash_profile
 ln -sf "$PWD/bashrc" "$HOME"/.bashrc
 ln -sf "$PWD/tmux.conf" "$HOME"/.tmux.conf
 ln -sf "$PWD/karabiner.json" "$XDG_CONFIG_HOME"/karabiner/karabiner.json
+ln -sf "$PWD/starship.toml" "$XDG_CONFIG_HOME"/starship.toml
 
 # Install firefox addons (bitwarden, ublock, vimium, pocket)
 
