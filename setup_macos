@@ -25,7 +25,7 @@ curl -LO --output-dir "$XDG_CONFIG_HOME"/alacritty/themes/themes https://github.
 
 # Install nvim and AstroNvim
 /opt/homebrew/bin/brew install neovim
-git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+git clone https://github.com/antoinelhermitte/nvim ~/.config/nvim
 mkdir -p "$XDG_CONFIG_HOME"/nvim/lua/user
 cp init.lua "$XDG_CONFIG_HOME"/nvim/lua/user/init.lua
 
