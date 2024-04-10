@@ -3,7 +3,5 @@
 rsync -av bashrc ~/.bashrc 
 rsync -av bash_profile ~/.bash_profile 
 rsync -av alacritty.toml ~/.alacritty.toml 
-rsync -av init.lua ~/.config/nvim/lua/user/init.lua 
 rsync -av custom-capslock.json ~/.config/karabiner/assets/complex_modifications/custom-capslock.json 
-rsync -av init.lua ~/.config/nvim/lua/user/init.lua 
 rsync -av karabiner.json ~/.config/karabiner/karabiner.json 
