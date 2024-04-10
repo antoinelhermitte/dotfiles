@@ -31,7 +31,7 @@ cp init.lua "$XDG_CONFIG_HOME"/nvim/lua/user/init.lua
 
 # Install other Mac Packages
 /opt/homebrew/bin/brew install --cask obsidian vlc firefox amethyst hiddenbar karabiner-elements bitwarden signal
-/opt/homebrew/bin/brew install tmux ripgrep lazygit bottom wireguard-go ffmpeg gh starship fzf MonitorControl
+/opt/homebrew/bin/brew install tmux ripgrep lazygit bottom wireguard-go ffmpeg gh starship fzf MonitorControl pyright
 
 mkdir -p "$XDG_CONFIG_HOME"/karabiner/complex_modifications
 
