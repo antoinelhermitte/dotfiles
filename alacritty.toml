@@ -1,11 +1,8 @@
 import = [
   #"~/.config/alacritty/themes/themes/github_dark.toml",
-  "/Users/antoine/.config/alacritty/catppuccin-macchiato.toml"
-  # "~/.config/alacritty/catppuccin_macchiato.toml" 
+  "~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"
   ]
-# [env]
-# TERM = "xterm-256color"
-#
+
 [shell]
 program = "/bin/bash"
 args = ["-l"]
@@ -14,6 +11,7 @@ args = ["-l"]
 decorations = "buttonless"
 padding = { x = 5, y = 3 }
 startup_mode = "maximized"
+option_as_alt = "OnlyLeft"
 
 [font]
 size = 15 
