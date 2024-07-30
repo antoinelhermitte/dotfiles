@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Set variables
+today=$(date +%d-%m-%Y)
+daily_note_dir="$NOTES_DIR/daily_notes"
+today_file="${daily_note_dir}/${today}_daily.md"
+
+# Function to find unticked checkboxes in the most recent daily note
+find_unticked_checkboxes() {
+    most_recent_file=$(ls -t ${daily_note_dir}/*_daily_note.md 2>/dev/null | head -n 1)
+    if [[ -f "$most_recent_file" ]]; then
+        grep -E '^\s*[-*]\s+\[ \]' "$most_recent_file"
+    else
+        echo ""
+    fi
+}
+
+# Check if today's daily note exists
+if [[ -f "$today_file" ]]; then
+    echo "Today's daily note already exists. Opening with neovim..."
+    nvim "$today_file"
+else
+    echo "Creating today's daily note from template..."
+    {
+        echo "---"
+        echo "tags:"
+        echo "created_at: ${today}"
+        echo "---"
+        echo "# To-Do"
+        find_unticked_checkboxes
+        echo "- [ ]"
+        echo ""
+        echo "# Logbook"
+        echo ""
+        echo "# Linked notes"
+        echo ""
+        echo "# Resources"
+        echo ""
+    } > "$today_file"
+
+    echo "Opening today's daily note with neovim..."
+    nvim "$today_file"
+fi
