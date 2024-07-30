@@ -3,6 +3,9 @@ import = [
   "~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"
   ]
 
+[env]
+term = "xterm-256color"
+
 [shell]
 program = "/bin/bash"
 args = ["-l"]
@@ -18,3 +21,9 @@ size = 15
 
 [font.normal]
 family = "JetBrainsMonoNL Nerd Font Mono"
+# family = "Hack Nerd Font Mono"
+
+[keyboard]
+bindings = [
+  { key = "Enter", mods = "Command", action = "ToggleFullscreen"},
+]
