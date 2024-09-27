@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Check if a filename was provided as an argument
+if [ -z "$1" ]; then
+  echo "Please provide a name for the markdown file."
+  read -p "Filename: " filename
+else
+  filename=$1
+fi
+
+# Ensure the filename ends with .md
+if [[ "$filename" != *.md ]]; then
+  filename="${filename}.md"
+fi
+
+# Set variables
+today=$(date +%Y-%m-%d)
+file_path="$NOTES_DIR/${filename}"
+
+# Create the markdown file with the specified content
+{
+  echo "---"
+  echo "tags:"
+  echo "created_at: ${today}"
+  echo "---"
+} > "$file_path"
+
+# Open the new file with neovim
+nvim "$file_path"
+
