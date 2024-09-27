@@ -4,10 +4,10 @@
 today=$(date +%d-%m-%Y)
 daily_note_dir="$NOTES_DIR/daily_notes"
 today_file="${daily_note_dir}/${today}_daily.md"
-most_recent_file=$(ls -t ${daily_note_dir}/*_daily.md 2>/dev/null | head -n 1)
 
 # Function to find unticked checkboxes in the most recent daily note
 find_unticked_checkboxes() {
+    most_recent_file=$(ls -t ${daily_note_dir}/*_daily_note.md 2>/dev/null | head -n 1)
     if [[ -f "$most_recent_file" ]]; then
         grep -E '^\s*[-*]\s+\[ \]' "$most_recent_file"
     else
@@ -28,7 +28,6 @@ else
         echo "---"
         echo "# To-Do"
         find_unticked_checkboxes
-        echo "- [ ] "
         echo ""
         echo "# Logbook"
         echo ""
