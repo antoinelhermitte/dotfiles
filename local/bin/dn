@@ -19,7 +19,7 @@ find_unticked_checkboxes() {
 
 # Function to add aoc checkbox if it's December before the 24th
 add_aoc_checkbox() {
-    if [[ "$month" == "12" && "$day" -lt "25" ]]; then
+    if [[ "$month" == "12" && "$day" -lt "26" ]]; then
         echo "- [ ] Advent of Code"
     fi
 }
